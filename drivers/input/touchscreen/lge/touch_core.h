@@ -445,6 +445,7 @@ struct swipe_ctrl {
 	struct swipe_active_area start_area;
 	struct swipe_active_area border_area;
 	struct swipe_active_area start_border_area;
+	bool available;
 };
 
 struct touch_pinctrl {
