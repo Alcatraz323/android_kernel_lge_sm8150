@@ -245,7 +245,6 @@ enum req_flag_bits {
 
 	__REQ_SORTED = __REQ_RAHEAD, /* elevator knows about this request */
 	/* command specific flags for REQ_OP_WRITE_ZEROES: */
-	__REQ_PREEMPT,		/* set for "ide_preempt" requests and also*/
 	__REQ_NOUNMAP,		/* do not free blocks when zeroing */
 
 	__REQ_URGENT,		/* urgent request */
