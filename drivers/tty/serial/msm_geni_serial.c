@@ -588,7 +588,7 @@ static void msm_geni_serial_power_off(struct uart_port *uport)
 }
 
 static int msm_geni_serial_poll_bit(struct uart_port *uport,
-				int offset, u32 bit_field, bool set)
+				int offset, int bit_field, bool set)
 {
 	int iter = 0;
 	unsigned int reg;

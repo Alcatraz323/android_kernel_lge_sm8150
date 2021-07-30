@@ -766,6 +766,9 @@ struct diag_apps_data_t {
 	uint8_t flushed;
 };
 
+extern struct diag_apps_data_t hdlc_data;
+extern struct diag_apps_data_t non_hdlc_data;
+
 void diag_get_timestamp(char *time_str);
 void check_drain_timer(void);
 int diag_get_remote(int remote_info);
